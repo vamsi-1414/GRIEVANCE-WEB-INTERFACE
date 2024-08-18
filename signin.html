@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>signin</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="top-sign">
+        <form action="signin" method="post">
+            <div class="signin">
+                <h2> <center style="padding: 0%;">SIGN-IN</center></h2>
+                <div class="sign-body" style="padding-top: 0%;">
+                    <label for="username">
+                       USERNAME
+                    </label>
+                    <input type="text" name="username" id="username" style="background: none;" placeholder="enter username" required>
+                    <label for="password">
+                        PASSWORD
+                    </label>
+                    <input type="password" name="password" id="password" style="background: none;" placeholder="enter password" required>
+                   <label for="roll">
+                        ROLL N.O.
+                    </label>
+                    <input type="text" name="roll" id="roll" placeholder="enter roll number" style="background: none;" required>
+                    <button type="submit">SIGNIN</button>
+                    <a href="login.html" style="text-decoration: none;">go back to login page</a>
+                    <i name="error" style="color: red;"></i>
+                </div>
+               
+            </div>
+        </form>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>

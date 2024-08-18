@@ -1,0 +1,94 @@
+body{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #3e24b6;
+}
+*{
+    font-family: sans-serif;
+}
+h2{
+    padding-top: 20px;
+    margin: 0%;
+    font-size: 30px;
+}
+
+.top-sign{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 500px rgb(43, 43, 206) inset,
+    10px 10px 40px rgb(32, 32, 182);
+}
+.signin{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sign-body{
+    align-items: center;
+    justify-content: center;
+    border-radius:  0px 0px 20px 20px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+   
+}
+button{
+    border: 1px;
+    font-size: 20px;
+    height: 30px;
+    width: 100%;
+    border-radius: 14px;
+    padding: 4px;
+    margin: 14px;
+    box-shadow: 0px 0px 50px rgb(69, 69, 223) inset;
+}
+button:hover{
+    transition: 400ms;
+    box-shadow: 0px 0px 50px rgb(38, 38, 223) inset,
+    2px 2px 4px rgb(32, 32, 182),
+    4px 4px 4px rgb(36, 36, 236);   
+}
+label {
+    margin: 5px;
+    padding-left: 30px;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+}
+
+input{
+
+    font-size: 20px;
+    text-align: center;
+    background: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 25px;
+    
+}
+a{
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 17px;
+    color: black;
+}
+
+a:hover{
+   transform: scale(1.1);
+   transition: ease-in 200ms;
+    color: blue;
+ 
+}
+input{
+    border:  1px solid;
+}
